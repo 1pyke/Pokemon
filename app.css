@@ -1,0 +1,13 @@
+.pokemon{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.pokemon img{
+    display: block;
+}
+.h1{
+    background-color: black;
+    color: red;
+}
