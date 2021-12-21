@@ -1,13 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 .pokemon{
     display: inline-block;
     text-align: center;
     background-color: black;
     color: white;
+    font-weight: bold;
 }
 .pokemon img{
     display: block;
+    display: flex;
+    justify-content: center;
 }
 .h1{
-    background-color: black;
     color: red;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 55px;
+    font-size: 60px;
+    background-color: white;
+    border-radius: 600px;
+    opacity: 50%;
 }
